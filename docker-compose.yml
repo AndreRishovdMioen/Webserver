@@ -3,4 +3,13 @@ services:
     image: gateway:0.0.1-SNAPSHOT
     build:
       context: ./gateway
+    restart: no
     container_name: gateway
+
+  frontend:
+    build:
+      context: ./frontend
+    restart: unless-stopped
+    container_name: frontend
+    ports:
+      - "127.0.0.1:8080:80"
