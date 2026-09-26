@@ -1,0 +1,6 @@
+services:
+  gateway:
+    image: gateway:0.0.1-SNAPSHOT
+    build:
+      context: ./gateway
+    container_name: gateway
