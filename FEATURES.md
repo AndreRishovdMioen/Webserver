@@ -9,14 +9,16 @@
 - [ ] Prod server and Test server
 - [ ] Email service warnings
 - [ ] Multiple repo support
-- [ ] Secrets manager
+- [ ] Secrets manager (hashicorp vault?)
 - [ ] Flowchart for creating new module (one file per service)
   - [ ] Java (21) & JDK (24 Oracle OpenJDK 24.0.2)
   - [ ] Maven dependencies
   - [ ] .gitignore
   - [ ] .dockerignore
   - [ ] ReadMe.md (about)
-  - [ ] docker-compose.yml
+  - [ ] update docker-compose.yml
+    - [ ] allow multiple instances
+    - [ ] port range
   - [ ] CORS config in \Webserver
   - [ ] Dockerfile
     - [ ] Auto restart config
@@ -25,7 +27,7 @@
   - [ ] Tests
 
 # Frontend
-- [ ] Navbar
+- [ ] Navbar // 01:00h
   - [ ] Home
   - [ ] About
     - [ ] Project GitHub href
@@ -41,6 +43,7 @@
   - [ ] Copyright
 
 - [ ] CSS
+  - [ ] Tailwind
   - [ ] Font
   - [ ] Background colour
   - [ ] Boxes
@@ -48,6 +51,7 @@
 - [ ] Loading indicator
 - [ ] Skeleton
 - [ ] Reusable files pipeline.md
+- [ ] Multiple languages (l18n)
 
 
 
@@ -57,6 +61,7 @@
 ### Gateway
 - [ ] Security
   - [ ] CORS config
+  - [ ] TLS (Transport Layer Security)
 
 - [ ] Consul
   - [ ] Load balancer
