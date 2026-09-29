@@ -1,11 +1,7 @@
 function HomeScreen() {
-    const message = 'Welcome';
-    if (message) {
-        return <h1>{message}</h1>
-    }
-    return (
-      <h1>Hello</h1>
-    );
+  const message = "Home screen!";
+
+  return <h1 className="bg-amber-700">{message}</h1>;
 }
 
 export default HomeScreen;
