@@ -27,18 +27,18 @@
   - [ ] Tests
 
 # Frontend
-- [ ] Navbar // 01:00h
-  - [ ] Home
-  - [ ] About
-    - [ ] Project GitHub href
+- [x] Navbar // 03:00h
+  - [x] Home
+  - [x] About
+    - [x] Project GitHub href
     - [ ] Project README.md
-    - [ ] Project FEATURES.md
+    - [x] Project FEATURES.md
 
-  - [ ] Portfolio
+  - [x] Projects
     - [ ] Collapsing folder 
     - [ ] Project tags
     - [ ] Video demo
-  - [ ] Contact
+  - [x] Contact
 
 - [ ] Bottom of page
   - [ ] Contact
@@ -46,7 +46,7 @@
   - [ ] Copyright
 
 - [ ] CSS
-  - [ ] Tailwind
+  - [x] Tailwind
   - [ ] Font
   - [ ] Background color
   - [ ] Boxes
