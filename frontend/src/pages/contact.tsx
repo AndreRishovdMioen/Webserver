@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <>
+    <div className="bg-amber-400">
       <ol>
         <li>Phone: 98 47 92 77</li>
         <li>Email: andre44@live.no</li>
@@ -10,13 +10,13 @@ function Contact() {
             href="https://www.linkedin.com/in/andré-rishovd-miøen-4b23092a1"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-cyan-600"
+            className="text-cyan-600 underline"
           >
             André Rishovd Miøen
           </a>
         </li>
       </ol>
-    </>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <>
+    <div className="bg-amber-400">
       <ol>
         <li>
           <div>
@@ -41,7 +41,7 @@ const Projects = () => {
           </div>
         </li>
       </ol>
-    </>
+    </div>
   );
 };
 

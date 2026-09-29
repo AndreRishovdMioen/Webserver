@@ -1,6 +1,6 @@
 function About() {
   return (
-    <>
+    <div className="bg-amber-400">
       <p>
         I am a recent graduate with a Bachelor's Degree in Information
         Technology from Kristiania University of Applied Sciences.
@@ -15,7 +15,7 @@ function About() {
         Windows * Linux * Terraform * AWS * EntraID * OpenAI API * Embedding *
         RAG{" "}
       </p>
-    </>
+    </div>
   );
 }
 
