@@ -35,6 +35,9 @@
     - [ ] Project FEATURES.md
 
   - [ ] Portfolio
+    - [ ] Collapsing folder 
+    - [ ] Project tags
+    - [ ] Video demo
   - [ ] Contact
 
 - [ ] Bottom of page
@@ -45,7 +48,7 @@
 - [ ] CSS
   - [ ] Tailwind
   - [ ] Font
-  - [ ] Background colour
+  - [ ] Background color
   - [ ] Boxes
 
 - [ ] Loading indicator
@@ -56,6 +59,7 @@
 
 
 # Backend
+- [ ] API standard
 
 ## Services:
 ### Gateway
@@ -88,3 +92,4 @@
   - [ ] Services
   - [ ] Test-database r/w
 
+### Multithread demo
