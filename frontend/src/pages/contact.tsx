@@ -1,4 +1,4 @@
-function Contact() {
+const Contact = () => {
   return (
     <div className="bg-amber-400">
       <ol>
@@ -18,6 +18,6 @@ function Contact() {
       </ol>
     </div>
   );
-}
+};
 
 export default Contact;
