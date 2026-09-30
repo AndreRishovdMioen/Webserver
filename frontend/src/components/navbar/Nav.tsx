@@ -40,7 +40,11 @@ const Nav = () => {
   return (
     <>
       <nav className={"w-1/3 flex justify-end"}>
-        <div className={"hidden items-center gap-5 md:flex bg-gray-400"}>
+        <div
+          className={
+            "hidden items-center gap-5 md:flex bg-gray-700 text-amber-50"
+          }
+        >
           <NavLinks />
         </div>
         <div className="md:hidden text-">

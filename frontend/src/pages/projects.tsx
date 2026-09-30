@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="bg-amber-400">
+    <div>
       <ol>
         <li>
           <div>
@@ -13,10 +13,18 @@ const Projects = () => {
               >
                 Caddy
               </a>{" "}
-              webserver exposed to a Cloudflare tunnel, running on my old
-              computer as containerized microservices in Docker. It will serve
-              as my portfolio, as an alternative to staring at code on GitHub.
-              See{" "}
+              webserver exposed to a{" "}
+              <a
+                href="https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/"
+                className="text-cyan-600 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Cloudflared
+              </a>{" "}
+              tunnel, running on my old computer as containerized microservices
+              in Docker. It will serve as my portfolio, as an alternative to
+              staring at code on GitHub. See{" "}
               <a
                 href="https://github.com/AndreRishovdMioen/Webserver/blob/main/FEATURES.md"
                 className="text-cyan-600 underline"

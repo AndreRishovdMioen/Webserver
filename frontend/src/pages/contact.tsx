@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="bg-amber-400">
+    <div>
       <ol>
         <li>Phone: 98 47 92 77</li>
         <li>Email: andre44@live.no</li>

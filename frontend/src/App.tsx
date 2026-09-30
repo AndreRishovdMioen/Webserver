@@ -11,16 +11,18 @@ import PrivacyPolicy from "./pages/privacyPolicy.tsx";
 function App() {
   return (
     //    <HomeScreen />
-    <div>
+    <div className="min-h-dvh relative flex flex-col text-amber-50 bg-indigo-400">
       <Header />
 
-      <Routes>
-        <Route path="/" element={<HomeScreen />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/privacyPolicy" element={<PrivacyPolicy />}></Route>
-      </Routes>
+      <main className="flex-1 mx-60 bg-gray-600 p-[2em] z-1 border-t border-b border-black">
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        </Routes>
+      </main>
 
       <Footer />
     </div>

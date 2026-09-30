@@ -2,8 +2,8 @@ import Nav from "./Nav.tsx";
 
 const Header = () => {
   return (
-    <header className="bg-gray-500 sticky top-0 z-[1] mx-auto  flex w-full max-w-7xl flex-wrap items-center justify-between border-b border-gray-100 bg-background p-[2em] font-sans font-bold uppercase text-text-primary backdrop-blur-[100px] dark:border-gray-800 dark:bg-d-background dark:text-d-text-primary">
-      <div className="bg-gray-400 p-2">
+    <header className="bg-gray-600 sticky top-0 z-[1] mx-60  flex flex-wrap items-center justify-between border-b bg-background p-[2em] font-bold uppercase text-text-primary border-gray-800">
+      <div className="bg-gray-700 p-2 ">
         <h1>André Rishovd Miøen</h1>
       </div>
       <Nav />
