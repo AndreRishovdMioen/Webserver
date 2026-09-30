@@ -41,14 +41,14 @@
   - [x] Contact
 
 - [ ] Bottom of page
-  - [ ] Contact
-  - [ ] Privacy policy
-  - [ ] Copyright
+  - [x] Contact
+  - [x] Privacy policy
+  - [x] Copyright
 
 - [ ] CSS
   - [x] Tailwind
   - [ ] Font
-  - [ ] Background color
+  - [x] Background color
   - [ ] Boxes
 
 - [ ] Loading indicator
